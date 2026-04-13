@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+
+body {
+font-family: Arial;
+background: #f4f4f4;
+color: #333;
+}
+
+/* NAVBAR */
+nav {
+display: flex;
+justify-content: space-between;
+padding: 15px 30px;
+background: #222;
+color: white;
+position: sticky;
+top: 0;
+}
+
+nav ul {
+display: flex;
+gap: 20px;
+list-style: none;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+/* HEADER */
+header {
+text-align: center;
+padding: 60px 20px;
+background: linear-gradient(45deg, #007bff, #00c6ff);
+color: white;
+}
+
+.btn {
+display: inline-block;
+margin-top: 15px;
+padding: 10px 20px;
+background: white;
+color: #007bff;
+border-radius: 5px;
+}
+
+/* PROFILE IMAGE */
+.profile {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-bottom: 15px;
+border: 4px solid white;
+object-fit: cover;
+}
+
+/* SECTIONS */
+section {
+padding: 40px;
+margin: 20px;
+background: white;
+border-radius: 10px;
+}
+
+/* SKILLS */
+.grid {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+.grid span {
+background: #007bff;
+color: white;
+padding: 10px;
+border-radius: 5px;
+}
+
+/* PROJECT CARD */
+.card {
+background: #eee;
+padding: 20px;
+border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 15px;
+background: #222;
+color: white;
+}
+
+/* DARK MODE */
+.dark {
+background: #121212;
+color: white;
+}
+
+.dark section {
+background: #1e1e1e;
+}
+
+/* ANIMATION */
+.fade {
+opacity: 0;
+transform: translateY(20px);
+transition: 1s;
+}
+
+.fade.show {
+opacity: 1;
+transform: translateY(0);
+}
